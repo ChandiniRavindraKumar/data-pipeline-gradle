@@ -1,13 +1,13 @@
-package com.example.cassandraadaptor;
+package com.example.podtgresadaptor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CassandraAdaptorApplication {
+public class PodtgresAdapterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CassandraAdaptorApplication.class, args);
+		SpringApplication.run(PodtgresAdapterApplication.class, args);
 	}
 
 }
